@@ -1,0 +1,14 @@
+{
+  "name": "firefox iframe browser object missing tabs bug",
+  "version": "0.0",
+  "description": "firefox iframe browser object missing tabs bug",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_script.js"]
+    }
+  ],
+  "manifest_version": 2,
+  "web_accessible_resources": ["iframe.html", "iframe.js"],
+  "permissions": ["tabs"]
+}

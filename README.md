@@ -1,0 +1,1 @@
+Bug: Browser.tabs is not exposed to extension iframes in Firefox.
